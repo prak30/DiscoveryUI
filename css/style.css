@@ -15,8 +15,6 @@
 }
 
 #hero .content {
-
-
   height: 100%;
   width: 100%;
   z-index: 20;
@@ -25,9 +23,8 @@
   top: 0;
   left: 0;
 }
-#A1:hover{
-    text-decoration: underline;
-
+#A1:hover {
+  text-decoration: underline;
 }
 
 #A2:hover {
@@ -45,4 +42,49 @@
 #A5:hover {
   text-decoration: underline;
 }
+/* welcome section */
 
+.welcome {
+  margin-top: 140px;
+  margin-left: 200px;
+  animation: 2s anim-lineUp ease-out infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.welcome1 #msg {
+  padding: 50px 70px;
+}
+
+.welcome1 #img1 {
+  padding: 50px 70px;
+}
+
+#img {
+  height: 350px;
+  width: auto;
+}
+
+#msg img {
+  float: right;
+  height: 450px;
+  width: 550px;
+  padding-right: 50px;
+}
